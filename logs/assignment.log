@@ -1,0 +1,73 @@
+2023-07-04 20:16:06.023  INFO 125112 --- [main] c.m.assignment.AssignmentApplication     : Starting AssignmentApplication on MYINFLT192 with PID 125112 (C:\Assignment\target\classes started by wkloong in C:\Assignment)
+2023-07-04 20:16:06.026  INFO 125112 --- [main] c.m.assignment.AssignmentApplication     : No active profile set, falling back to default profiles: default
+2023-07-04 20:16:06.640  INFO 125112 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2023-07-04 20:16:06.714  INFO 125112 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 64ms. Found 1 JPA repository interfaces.
+2023-07-04 20:16:07.690  INFO 125112 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-07-04 20:16:07.703  INFO 125112 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-04 20:16:07.703  INFO 125112 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2023-07-04 20:16:07.832  INFO 125112 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-04 20:16:07.832  INFO 125112 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1764 ms
+2023-07-04 20:16:08.078  INFO 125112 --- [main] o.f.c.internal.license.VersionPrinter    : Flyway Community Edition 6.4.4 by Redgate
+2023-07-04 20:16:08.093  INFO 125112 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-07-04 20:16:08.477  INFO 125112 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-07-04 20:16:08.512  INFO 125112 --- [main] o.f.c.internal.database.DatabaseFactory  : Database: jdbc:sqlserver://localhost:1433;connectRetryInterval=10;connectRetryCount=1;maxResultBuffer=-1;sendTemporalDataTypesAsStringForBulkCopy=true;delayLoadingLobs=true;useFmtOnly=false;useBulkCopyForBatchInsert=false;cancelQueryTimeout=-1;sslProtocol=TLS;jaasConfigurationName=SQLJDBCDriver;statementPoolingCacheSize=0;serverPreparedStatementDiscardThreshold=10;enablePrepareOnFirstPreparedStatementCall=false;fips=false;socketTimeout=0;authentication=NotSpecified;authenticationScheme=nativeAuthentication;xopenStates=false;sendTimeAsDatetime=true;replication=false;trustStoreType=JKS;trustServerCertificate=false;TransparentNetworkIPResolution=true;serverNameAsACE=false;sendStringParametersAsUnicode=true;selectMethod=direct;responseBuffering=adaptive;queryTimeout=-1;packetSize=8000;multiSubnetFailover=false;loginTimeout=30;lockTimeout=-1;lastUpdateCount=true;encrypt=false;disableStatementPooling=true;databaseName=TESTDB;columnEncryptionSetting=Disabled;applicationName=Microsoft JDBC Driver for SQL Server;applicationIntent=readwrite; (Microsoft SQL Server 15.0)
+2023-07-04 20:16:08.652  INFO 125112 --- [main] o.f.core.internal.command.DbValidate     : Successfully validated 2 migrations (execution time 00:00.065s)
+2023-07-04 20:16:08.664  INFO 125112 --- [main] o.f.core.internal.command.DbMigrate      : Current version of schema [dbo]: 0.0.1.2
+2023-07-04 20:16:08.668  INFO 125112 --- [main] o.f.core.internal.command.DbMigrate      : Schema [dbo] is up to date. No migration necessary.
+2023-07-04 20:16:08.828  INFO 125112 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-07-04 20:16:08.925  INFO 125112 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-04 20:16:08.999  WARN 125112 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-04 20:16:09.012  INFO 125112 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.18.Final
+2023-07-04 20:16:09.239  INFO 125112 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2023-07-04 20:16:09.421  INFO 125112 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2023-07-04 20:16:09.472  INFO 125112 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-07-04 20:16:09.474  INFO 125112 --- [main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2023-07-04 20:16:10.207  INFO 125112 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-04 20:16:10.217  INFO 125112 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-04 20:16:10.391  INFO 125112 --- [main] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2023-07-04 20:16:10.398  INFO 125112 --- [main] c.m.assignment.AssignmentApplication     : Started AssignmentApplication in 4.846 seconds (JVM running for 5.656)
+2023-07-04 20:16:15.076  INFO 125112 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-04 20:16:15.077  INFO 125112 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-07-04 20:16:15.086  INFO 125112 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2023-07-04 20:16:15.134  INFO 125112 --- [http-nio-8080-exec-2] c.m.a.c.api.UserProfileController        : Enter UserProfileController.getUser request userProfileId: 1
+2023-07-04 20:16:15.156  INFO 125112 --- [http-nio-8080-exec-2] c.m.a.s.impl.UserProfileServiceImpl      : Enter UserProfileServiceImpl.findByUserProfileId
+2023-07-04 20:16:15.301  INFO 125112 --- [http-nio-8080-exec-2] c.m.a.c.api.UserProfileController        : UserProfileController.getUser response: UserProfileDto(name=Loong, email=loong@yahoo.com)
+2023-07-04 20:18:02.066  INFO 130216 --- [main] c.m.assignment.AssignmentApplication     : Starting AssignmentApplication on MYINFLT192 with PID 130216 (C:\Assignment\target\classes started by wkloong in C:\Assignment)
+2023-07-04 20:18:02.070  INFO 130216 --- [main] c.m.assignment.AssignmentApplication     : No active profile set, falling back to default profiles: default
+2023-07-04 20:18:02.777  INFO 130216 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2023-07-04 20:18:02.850  INFO 130216 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 63ms. Found 1 JPA repository interfaces.
+2023-07-04 20:18:03.844  INFO 130216 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-07-04 20:18:03.856  INFO 130216 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-04 20:18:03.856  INFO 130216 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2023-07-04 20:18:04.003  INFO 130216 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-04 20:18:04.003  INFO 130216 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1892 ms
+2023-07-04 20:18:04.239  INFO 130216 --- [main] o.f.c.internal.license.VersionPrinter    : Flyway Community Edition 6.4.4 by Redgate
+2023-07-04 20:18:04.252  INFO 130216 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-07-04 20:18:04.571  INFO 130216 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-07-04 20:18:04.602  INFO 130216 --- [main] o.f.c.internal.database.DatabaseFactory  : Database: jdbc:sqlserver://localhost:1433;connectRetryInterval=10;connectRetryCount=1;maxResultBuffer=-1;sendTemporalDataTypesAsStringForBulkCopy=true;delayLoadingLobs=true;useFmtOnly=false;useBulkCopyForBatchInsert=false;cancelQueryTimeout=-1;sslProtocol=TLS;jaasConfigurationName=SQLJDBCDriver;statementPoolingCacheSize=0;serverPreparedStatementDiscardThreshold=10;enablePrepareOnFirstPreparedStatementCall=false;fips=false;socketTimeout=0;authentication=NotSpecified;authenticationScheme=nativeAuthentication;xopenStates=false;sendTimeAsDatetime=true;replication=false;trustStoreType=JKS;trustServerCertificate=false;TransparentNetworkIPResolution=true;serverNameAsACE=false;sendStringParametersAsUnicode=true;selectMethod=direct;responseBuffering=adaptive;queryTimeout=-1;packetSize=8000;multiSubnetFailover=false;loginTimeout=30;lockTimeout=-1;lastUpdateCount=true;encrypt=false;disableStatementPooling=true;databaseName=TESTDB;columnEncryptionSetting=Disabled;applicationName=Microsoft JDBC Driver for SQL Server;applicationIntent=readwrite; (Microsoft SQL Server 15.0)
+2023-07-04 20:18:04.702  INFO 130216 --- [main] o.f.core.internal.command.DbValidate     : Successfully validated 2 migrations (execution time 00:00.042s)
+2023-07-04 20:18:04.715  INFO 130216 --- [main] o.f.core.internal.command.DbMigrate      : Current version of schema [dbo]: 0.0.1.2
+2023-07-04 20:18:04.717  INFO 130216 --- [main] o.f.core.internal.command.DbMigrate      : Schema [dbo] is up to date. No migration necessary.
+2023-07-04 20:18:04.833  INFO 130216 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-07-04 20:18:04.921  INFO 130216 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-04 20:18:04.997  WARN 130216 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-04 20:18:05.018  INFO 130216 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.18.Final
+2023-07-04 20:18:05.250  INFO 130216 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2023-07-04 20:18:05.455  INFO 130216 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2023-07-04 20:18:05.517  INFO 130216 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-07-04 20:18:05.519  INFO 130216 --- [main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2023-07-04 20:18:06.164  INFO 130216 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-04 20:18:06.180  INFO 130216 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-04 20:18:06.420  INFO 130216 --- [main] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2023-07-04 20:18:06.429  INFO 130216 --- [main] c.m.assignment.AssignmentApplication     : Started AssignmentApplication in 4.832 seconds (JVM running for 5.655)
+2023-07-04 20:18:16.573  INFO 130216 --- [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-04 20:18:16.573  INFO 130216 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-07-04 20:18:16.580  INFO 130216 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2023-07-04 20:18:16.707  INFO 130216 --- [http-nio-8080-exec-3] c.m.a.c.api.UserProfileController        : Enter UserProfileController.editUser request userProfileId: 15 userProfileDto: UserProfileDto(name=Loong14, email=loong14A@yahoo.com)
+2023-07-04 20:18:16.735  INFO 130216 --- [http-nio-8080-exec-3] c.m.a.s.impl.UserProfileServiceImpl      : Enter UserProfileServiceImpl.updateUserProfile
+2023-07-04 20:18:56.823  INFO 130216 --- [http-nio-8080-exec-4] c.m.a.c.api.UserProfileController        : Enter UserProfileController.editUser request userProfileId: 14 userProfileDto: UserProfileDto(name=Loong13, email=loong13B@yahoo.com)
+2023-07-04 20:18:56.825  INFO 130216 --- [http-nio-8080-exec-4] c.m.a.s.impl.UserProfileServiceImpl      : Enter UserProfileServiceImpl.updateUserProfile
+2023-07-04 20:18:56.962  INFO 130216 --- [http-nio-8080-exec-4] c.m.a.c.api.UserProfileController        : UserProfileController.editUser response: UserProfileDto(name=Loong13, email=loong13B@yahoo.com)
+2023-07-04 20:20:06.323  INFO 130216 --- [http-nio-8080-exec-7] c.m.a.c.api.UserProfileController        : Enter UserProfileController.getUsers request page number: 1
+2023-07-04 20:20:06.327  INFO 130216 --- [http-nio-8080-exec-7] c.m.a.s.impl.UserProfileServiceImpl      : Enter UserProfileServiceImpl.findAll
+2023-07-04 20:20:06.524  INFO 130216 --- [http-nio-8080-exec-7] c.m.a.c.api.UserProfileController        : UserProfileController.getUsers response: [UserProfileDto(name=Loong11, email=loong11@yahoo.com), UserProfileDto(name=Loong12, email=loong12@yahoo.com), UserProfileDto(name=Loong13, email=loong13B@yahoo.com)]

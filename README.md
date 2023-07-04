@@ -1,1 +1,11 @@
-# assignment
+# assignment Loong Wai Kit
+- This project required Java version 11 in order to run
+- There are 6 api inside this project
+	- Add user
+	- Update user
+	- Get user
+	- Get All user with pagination
+	- Delete User
+	- Nested Api
+- This project is using MSSQL with Flyway
+- Postman Collection will be included in the email
